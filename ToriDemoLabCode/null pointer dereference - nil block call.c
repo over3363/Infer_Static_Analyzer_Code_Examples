@@ -1,3 +1,8 @@
+//RUN COMMANDS 
+//install libblocksruntime-dev and link it:
+//bash
+//clang -fblocks -o block_test main.c -lBlocksRuntime
+
 #include <stdio.h>
 
 int main() {
