@@ -1,3 +1,7 @@
+// RUN INSTRUCTIONS USING PULSE LIBRARY WITH INFER
+//bash 
+//infer run --pulse -- gcc your_file.c
+
 #include <stdlib.h>
 
 // Sink: Where the actual illegal access occurs
